@@ -13,7 +13,7 @@ public class LoginPageNew {
 	By userName=By.id("identifierId");
 	By password=By.xpath(".//*[@id='password']/div[1]/div/div[1]/input");
 	By userNameNext=By.id("identifierNext");
-	By signInButton=By.id("passwordNext");
+	By signInButton=By.xpath(".//div[@id='passwordNext']");
 	
   public WebElement userName(){
     	return driver.findElement(userName);
